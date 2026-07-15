@@ -204,10 +204,7 @@ export function Navbar() {
               ))}
             </div>
             <div className="pt-4 border-t border-ink/5 flex flex-col gap-3">
-              <div className="flex items-center justify-between px-3 py-1.5 rounded-lg bg-ink/[0.02] border border-ink/5">
-                <span className="text-xs font-medium text-ink/40">Switch mode</span>
-                <ThemeToggle />
-              </div>
+              <ThemeToggle mobileLayout />
               <Link href="/login" className="flex items-center justify-center gap-2 text-sm text-ink/60 border border-ink/10 py-2.5 rounded-md hover:text-ink transition-colors">
                 <User className="w-4 h-4" /> Log in
               </Link>
